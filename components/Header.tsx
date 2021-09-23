@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-        <header>
-            <nav>
+        <header className="header">
+            <nav className="header__menu">
                 <Link href="/">
                     HOME
                 </Link>
