@@ -1,13 +1,15 @@
 .header{
     position: absolute;
+    top: 0;
     z-index: 1;
     background: transparent;
     padding: 3rem 5rem;
     width: 100%;
+    background: linear-gradient( black 0%, transparent 100% );
 
     &__menu{
+        letter-spacing: 2px;
         color: white;
-        background: linear-gradient(to bottom, transparent 0%, black 100%);
         display: flex;
         justify-content: space-between;
         align-items: center;
