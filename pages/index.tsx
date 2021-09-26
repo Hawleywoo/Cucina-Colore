@@ -11,7 +11,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout imageSrc="/img/stock-wine.jpg" imageAlt="Wall of bottled wine" imageClassName="home__image">
-        <h3>HELLO</h3>
+        <div>
+          <h2>MAKE A RESERVATION</h2>
+        </div>
       </Layout>
     </div>
   )

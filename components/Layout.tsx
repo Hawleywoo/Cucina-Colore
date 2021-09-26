@@ -13,10 +13,12 @@ export default function Layout({ children, imageSrc, imageAlt, imageClassName }:
     return (
         <div>
             <Header />
-            <div style={{width: '100vw'}}>
-                <Image src={imageSrc} alt={imageAlt} className={imageClassName} layout="fill" />
+            <div className={imageClassName} style={{}}>
+                <Image src={imageSrc} alt={imageAlt}  layout="fill" objectFit="cover" />
             </div>
-            {children}
+            <main>
+                {children}
+            </main>
             <Footer />
         </div>
     )
