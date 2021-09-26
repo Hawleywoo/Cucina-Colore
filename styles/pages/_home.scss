@@ -1,4 +1,25 @@
 .home{
+
+    &__reservations{
+        background-color: $secondary;
+        width: 100vw;
+        height: 20vh;
+        padding: 7rem;
+        position: relative;
+    }
+
+    &__reservations::before{
+        content: "";
+        height: 38vh;
+        width: 100vw;
+        background-color: black;
+        position: absolute;
+        // background: rgb(0,0,0);
+        background: linear-gradient( rgba(0,0,0,0) 0%, rgba(0,0,0,.7) 30%, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%);
+        top: -24vh;
+        left: 0;
+    }
+
     &__image{
         position: relative;
         width: 100vw;

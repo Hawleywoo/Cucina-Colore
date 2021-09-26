@@ -13,8 +13,8 @@ export default function Layout({ children, imageSrc, imageAlt, imageClassName }:
     return (
         <div>
             <Header />
-            <div className={imageClassName} style={{}}>
-                <Image src={imageSrc} alt={imageAlt}  layout="fill" objectFit="cover" />
+            <div className={imageClassName}>
+                <Image src={imageSrc} alt={imageAlt} layout="fill" objectFit="cover" />
             </div>
             <main>
                 {children}
