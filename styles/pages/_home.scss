@@ -20,7 +20,7 @@
             width: 65%;
             padding: 5rem;
             & h1{
-                font-family: 'Ephesis';
+                font-family: 'Ephesis', sans-serif;
                 font-size: 3.5rem;
             }
         }
@@ -29,11 +29,23 @@
     &__reviews{
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        flex-direction: column;
         background-color: black;
         color: white;
         height: 60vh;
         font-size: 3rem;
+
+        &--icons{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-bottom: 7rem;
+        }
+        & h2{
+            font-size: 1rem;
+        }
     }
 
     &__reservations::before{

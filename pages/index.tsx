@@ -20,10 +20,13 @@ const Home: NextPage = () => {
           </div>
         </section>
         <section className="home__reviews">
-          <FaGoogle />
-          <FaTripadvisor />
-          <FaFacebookF />
-          <FaYelp />
+          <div className="home__reviews--icons">
+            <FaGoogle />
+            <FaTripadvisor />
+            <FaFacebookF />
+            <FaYelp />
+          </div>
+          <h2>CHECK OUT OUR REVIEWS</h2>
         </section>
       </Layout>
     </div>

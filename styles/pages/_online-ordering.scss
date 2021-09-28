@@ -1,12 +1,31 @@
 .online-ordering{
+    position: relative;
     height: 80vh;
-    
+    background-color: $secondary;
+    color: white;
+    padding: 7rem;
+
+    & h1{
+        font-family: 'Ephesis', sans-serif;
+        letter-spacing: 6px;
+    }
+
+    &::before{
+        content: "";
+        height: 38vh;
+        width: 100vw;
+        position: absolute;
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2987570028011205) 25%, rgba(0,0,0,0.6460959383753502) 35%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.65) 65%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
+        top: -19vh;
+        left: 0;
+        z-index: 1;
+    }
     &__image{
         object-fit: cover;
         object-position: 100% 50%;
         position: relative;
         width: 100vw;
-        height: 80vh;
+        height: 88vh;
         top: 0;
     }
 }
