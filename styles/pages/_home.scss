@@ -12,7 +12,6 @@
 
         &--image{
             position: relative;
-            // bottom: 0;
             height: 100%;
             width: 45%
         }
@@ -20,11 +19,21 @@
         &--desc{
             width: 65%;
             padding: 5rem;
+            & h1{
+                font-family: 'Ephesis';
+                font-size: 3.5rem;
+            }
         }
     }
 
-    &__second{
-        height: 40vh;
+    &__reviews{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: black;
+        color: white;
+        height: 60vh;
+        font-size: 3rem;
     }
 
     &__reservations::before{
