@@ -4,27 +4,31 @@ import Image from 'next/image'
 
 export default function Footer() {
     return (
-        <footer>
-            <div>
-                <div>
+        <footer className="footer">
+            <div className="footer__divider"></div>
+            <div className="footer__image"></div>
+
+            <div className="footer__address-container">
+                <div >
                     <div>
                         <b>ADDRESS</b>
-                        3041 East Third Ave.
+                        <p>3041 East Third Ave.
                         Cherry Creek North
-                        Denver, CO 80206
+                        Denver, CO 80206</p>
                     </div>
                     <div>
                         <b>CONTACT</b>
-                        303-393-6917
+                        <p>303-393-6917</p>
                     </div>
                     <div>
                         <b>HOURS</b>
-                        MON-SAT: 11am - 10pm
-                        SUN: 11am-9pm
+                        <p>MON-SAT: 11am - 10pm
+                        SUN: 11am-9pm</p>
                     </div>
                 </div>
-                <ContactForm />
             </div>
+            
+            <ContactForm />
         </footer>
     )
 }

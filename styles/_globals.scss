@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap');
 
 
-$secondary: #E3941C;
+$secondary: #C5A57A;
 $accent: #518295;
+
 *,
 *::after,
 *::before {
@@ -14,6 +15,7 @@ $accent: #518295;
 
 html,
 body {
+  letter-spacing: 2px;
   font-family:  'Raleway', sans-serif;
 }
 

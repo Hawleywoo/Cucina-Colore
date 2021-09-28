@@ -1,23 +1,41 @@
 .home{
 
     &__reservations{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
         background-color: $secondary;
         width: 100vw;
-        height: 20vh;
-        padding: 7rem;
+        height: 70vh;
         position: relative;
+
+        &--image{
+            position: relative;
+            // bottom: 0;
+            height: 100%;
+            width: 45%
+        }
+
+        &--desc{
+            width: 65%;
+            padding: 5rem;
+        }
+    }
+
+    &__second{
+        height: 40vh;
     }
 
     &__reservations::before{
         content: "";
         height: 38vh;
         width: 100vw;
-        background-color: black;
         position: absolute;
-        // background: rgb(0,0,0);
-        background: linear-gradient( rgba(0,0,0,0) 0%, rgba(0,0,0,.7) 30%, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%);
-        top: -24vh;
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2987570028011205) 25%, rgba(0,0,0,0.6460959383753502) 35%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.65) 65%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
+        top: -19vh;
         left: 0;
+        z-index: 1;
     }
 
     &__image{

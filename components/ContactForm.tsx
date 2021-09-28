@@ -21,7 +21,7 @@ export default function ContactForm() {
     }
 
     return (
-        <div>
+        <div className="contact-form__container">
             {
                 success
                     ? <h3>THANKS FOR CONTACTING US.  WE&apos;LL GET BACK TO YOU AS SOON AS WE CAN.</h3>
