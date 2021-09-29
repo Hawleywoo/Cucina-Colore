@@ -3,20 +3,38 @@
     height: 80vh;
     background-color: $secondary;
     color: white;
-    padding: 7rem;
+    padding: 13rem 0 10rem;
+
+    &__desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        font-size: 1.2rem;
+
+        & a{
+            font-size: .8rem;
+        }
+    }
+
 
     & h1{
-        font-family: 'Ephesis', sans-serif;
         letter-spacing: 6px;
+        font-size: 2.5rem;
+
+        & span{
+            font-family: 'Ephesis';
+        }
     }
 
     &::before{
         content: "";
-        height: 38vh;
+        height: 33vh;
         width: 100vw;
         position: absolute;
-        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2987570028011205) 25%, rgba(0,0,0,0.6460959383753502) 35%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.65) 65%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
-        top: -19vh;
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+        top: -16vh;
         left: 0;
         z-index: 1;
     }
@@ -27,5 +45,68 @@
         width: 100vw;
         height: 88vh;
         top: 0;
+    }
+
+    &__second-image{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: linear-gradient(hsla(0, 100%, 0%, .7), hsla(0, 100%, 0%, .7)), url("/img/chef-cooking.jpg");
+        background-repeat: no-repeat;
+        background-position: center 88%;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 50%;
+        height: 80vh;
+    }
+
+    &__images-contianer{
+        height: 75vh;
+    }
+}
+.btn-container{
+    position: relative;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    height: 80px;
+    margin-top: 2rem;
+    width: 210px;
+    border: solid 1px #51829580;
+    transition: all 0.3s;
+    
+    & a{
+        font-size: 1rem;
+    }
+}
+
+.btn:hover a{
+    letter-spacing: 5px;
+}
+
+.btn::after{
+    content: '';
+    position: absolute;
+    display: block;
+    border: solid 1px #51829580;
+    height: 60px;
+    width: 230px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #51829580;
+    height: 60px;
+    width: 230px;
+    
+    &::after{
+        background-color: #51829580;
+        height: 80px;
+        width: 210px;
     }
 }
