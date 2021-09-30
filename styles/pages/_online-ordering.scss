@@ -86,13 +86,14 @@
 }
 
 .btn:hover a{
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .btn::after{
     content: '';
     position: absolute;
     display: block;
+    z-index: -1;
     border: solid 1px #51829580;
     height: 60px;
     width: 230px;
