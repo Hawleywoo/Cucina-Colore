@@ -9,6 +9,14 @@
     & > div {
         display: flex;
         flex-direction: column;
+        margin: .7rem 0;
+
+        & > label {
+            margin-bottom: .2rem;
+        }
+
+        & > input{
+        }
     }
 }
 

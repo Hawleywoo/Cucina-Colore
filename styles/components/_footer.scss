@@ -24,6 +24,10 @@
         position: relative;
         z-index: 1;
         width: 40%;
+
+        &   h3{
+            margin-top: 1.2rem;
+        }
     }
 
     &__divider::before{

@@ -6,14 +6,14 @@ import Papa from 'papaparse';
 
 export default function Menu() {
 
-    const getData = async () => {
-        const data = Papa.parse(await fetchCsv())
+    const getData = async (page: string) => {
+        const data = Papa.parse(await fetchCsv(page))
         console.log(data)
         return data
     }
 
-    const fetchCsv = async () => {
-        const response: any = await fetch('/menus/WINE BTB LIST APRIL 2021 first page.csv')
+    const fetchCsv = async (page: string) => {
+        const response: any = await fetch(page)
         const reader: any = response.body.getReader();
         const result = await reader.read();
         const decoder: any = new TextDecoder('utf-8')
@@ -21,7 +21,7 @@ export default function Menu() {
         console.log(csv)
         return csv
     }
-    getData()
+    getData('/menus/WINE BTB LIST APRIL 2021 first page.csv')
 
     return (
         <Layout imageSrc="/img/stock-two-pizzas.jpg" imageAlt="Two pizzas with two glasses of wine" imageClassName="menu__image">

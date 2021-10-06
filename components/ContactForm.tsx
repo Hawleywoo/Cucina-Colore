@@ -45,6 +45,7 @@ export default function ContactForm() {
                             <input name="subject" value={formData.subject} onChange={handleChange} />
                         </div>
                         <div>
+                            <label>MESSAGE:</label>
                             <textarea name="message" value={formData.message} onChange={handleChange} />
                         </div>
                         <input type='submit' />
