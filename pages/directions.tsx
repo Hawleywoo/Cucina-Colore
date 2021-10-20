@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout  from '../components/Layout'
+import Map from '../components/Map'
 
 export default function Directions() {
     return (
@@ -9,17 +10,7 @@ export default function Directions() {
                 <div>
                     ADDRESS AND CONTACT INFO
                 </div>
-                <div>
-                    MAP COMPONENT
-                    <iframe 
-                        width="600" 
-                        height="450" 
-                        style="border:0" 
-                        loading="lazy" 
-                        allowFullScreen
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJy4vUkZd-bIcRdWZqFk6hakw&key=AIzaSyCCZJhgNybS2UZE3y_O4f0pTewuJ20joCw">
-                    </iframe>
-                </div>
+                <Map/>
             </div>
         </Layout>
     )
