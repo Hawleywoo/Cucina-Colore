@@ -28,25 +28,25 @@ export default function ContactForm() {
                     ? <h3>THANKS FOR CONTACTING US.  WE&apos;LL GET BACK TO YOU AS SOON AS WE CAN.</h3>
                     : < form className="contact-form" onSubmit={() => { }}>
                         <div>
-                            <label>NAME:</label>
+                            <label>NAME</label>
                             <input name="name" value={formData.name} onChange={handleChange} />
                         </div>
                         <div>
-                            <label>EMAIL:</label>
+                            <label>EMAIL</label>
                             <input name="email" value={formData.email} onChange={handleChange} />
 
                         </div>
                         <div>
 
-                            <label>PHONE NUMBER:</label>
+                            <label>PHONE NUMBER</label>
                             <input name="phone" value={formData.phone} onChange={handleChange} />
                         </div>
                         <div>
-                            <label>SUBJECT:</label>
+                            <label>SUBJECT</label>
                             <input name="subject" value={formData.subject} onChange={handleChange} />
                         </div>
                         <div>
-                            <label>MESSAGE:</label>
+                            <label>MESSAGE</label>
                             <textarea name="message" value={formData.message} onChange={handleChange} />
                         </div>
                         <input type='submit' />

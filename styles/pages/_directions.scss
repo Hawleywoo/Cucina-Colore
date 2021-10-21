@@ -29,6 +29,12 @@
     }
 
     &__header-container{
+        display: flex;
+        margin-bottom: 3rem;
+        & h1{
+            font-family: 'Ephesis', sans-serif;
+            font-size: 3.5rem;
+        }
         &__address{
             & h3{
                 color: $accent;
