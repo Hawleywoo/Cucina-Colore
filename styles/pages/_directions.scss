@@ -1,6 +1,7 @@
 .directions{
+    color: white;
     position: relative;
-    height: 80vh;
+    height: 150vh;
     background-color: $secondary;
     display: flex;
     flex-direction: column;
@@ -25,5 +26,14 @@
         width: 100vw;
         height: 88vh;
         top: 0;
+    }
+
+    &__header-container{
+        &__address{
+            & h3{
+                color: $accent;
+            }
+
+        }
     }
 }
