@@ -13,8 +13,8 @@ export default function Footer() {
                     <div>
                         <h3><b>ADDRESS</b></h3>
                         <p>3041 East Third Ave.
-                        Cherry Creek North
-                        Denver, CO 80206</p>
+                        Cherry Creek North</p>
+                        <p>Denver, CO 80206</p>
                     </div>
                     <div>
                         <h3><b>CONTACT</b></h3>
@@ -22,8 +22,8 @@ export default function Footer() {
                     </div>
                     <div>
                         <h3><b>HOURS</b></h3>
-                        <p>MON-SAT: 11am - 10pm
-                        SUN: 11am-9pm</p>
+                        <p>MON-SAT: 11am - 10pm</p>
+                        <p>SUN: 11am-9pm</p>
                     </div>
                 </div>
             </div>

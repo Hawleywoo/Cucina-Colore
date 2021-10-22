@@ -30,7 +30,10 @@
 
     &__header-container{
         display: flex;
+        width: 85%;
+        justify-content: space-evenly;
         margin-bottom: 3rem;
+        
         & h1{
             font-family: 'Ephesis', sans-serif;
             font-size: 3.5rem;
@@ -39,7 +42,9 @@
             & h3{
                 color: $accent;
             }
-
+            &  p{
+                margin: .2rem 0 .75rem 2rem;
+            }
         }
     }
 }
