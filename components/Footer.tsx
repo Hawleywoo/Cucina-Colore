@@ -14,7 +14,7 @@ export default function Footer() {
                         <h3><b>ADDRESS</b></h3>
                         <p>3041 East Third Ave.
                         Cherry Creek North</p>
-                        <p>Denver, CO 80206</p>
+                        <p>Denver, CO, 80206</p>
                     </div>
                     <div>
                         <h3><b>CONTACT</b></h3>

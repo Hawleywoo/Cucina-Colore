@@ -1,6 +1,7 @@
 .menu{
+    height: 80vh;
+    background: $accent;
     position: relative;
-    height: 50vh;
     
     &::before{
         content: "";

@@ -9,7 +9,7 @@ export default function OnlineOrdering() {
             <div className="online-ordering">
                 <div className="online-ordering__desc">
                     <h1><span>Online</span></h1>
-                    <h1>ORDERING</h1>
+                    <h1><span id="title-letter">O</span>RDERING</h1>
                     <p>Order some of the finest food in Cherry Creek and pick up in person.</p>
                     <div className="btn-container">
                         <div className="btn">
@@ -27,6 +27,18 @@ export default function OnlineOrdering() {
                 </div>
             </div>
             <section className="online-ordering__images-contianer">
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
+                <p> images of food</p>
                 <p> images of food</p>
             </section>
         </Layout>

@@ -24,3 +24,13 @@
 input[type=text], textarea{
     width: 100%;
 }
+
+input[type=submit]{
+    background: transparent;
+    border: solid 1px white;
+    border-radius: 10px;
+    color: $secondary;
+    letter-spacing: 2px;
+    padding: .5rem 2rem;
+    width: 100%;
+}
