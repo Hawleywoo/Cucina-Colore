@@ -6,6 +6,7 @@ export default function OnlineOrdering() {
 
     return (
         <Layout imageSrc="/img/stock-dark-chef.jpg" imageAlt="Chef with a dark apron cooking" imageClassName="online-ordering__image">
+            <div id="page-break"></div>
             <div className="online-ordering">
                 <div className="online-ordering__desc">
                     <h1><span>Online</span></h1>
@@ -27,19 +28,21 @@ export default function OnlineOrdering() {
                 </div>
             </div>
             <section className="online-ordering__images-contianer">
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
-                <p> images of food</p>
+                <div>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                    <p> images of food</p>
+                </div>
             </section>
         </Layout>
     )

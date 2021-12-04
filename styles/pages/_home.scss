@@ -33,7 +33,7 @@
         flex-direction: column;
         background-color: black;
         color: white;
-        height: 60vh;
+        height: 85vh;
         font-size: 3rem;
 
         &--icons{
@@ -57,16 +57,16 @@
         }
     }
 
-    &__reservations::before{
-        content: "";
-        height: 33vh;
-        width: 100vw;
-        position: absolute;
-        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
-        top: -16vh;
-        left: 0;
-        z-index: 1;
-    }
+    // &__reservations::before{
+    //     content: "";
+    //     height: 33vh;
+    //     width: 100vw;
+    //     position: absolute;
+    //     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+    //     top: -16vh;
+    //     left: 0;
+    //     z-index: 1;
+    // }
 
     &__image{
         position: relative;

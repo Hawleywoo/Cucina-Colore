@@ -9,7 +9,7 @@
     & > div {
         display: flex;
         flex-direction: column;
-        margin: .7rem 0;
+        margin: 1.2rem 0;
 
         & > label {
             color: $secondary;
@@ -17,20 +17,27 @@
         }
 
         & > input{
+            border-style: none;
+            border-radius: 2px;
         }
     }
 }
 
 input[type=text], textarea{
+    border-style: none;
+    border-radius: 2px;
+    font-family:  'Raleway', sans-serif;
+    height: 5.5rem;
+    resize: none;
+    padding: .5rem;
     width: 100%;
 }
 
 input[type=submit]{
     background: transparent;
     border: solid 1px white;
-    border-radius: 10px;
+    border-radius: 3px;
     color: $secondary;
     letter-spacing: 2px;
     padding: .5rem 2rem;
-    width: 100%;
 }

@@ -1,23 +1,24 @@
 .directions{
     color: white;
     position: relative;
-    height: 150vh;
+    height: 165vh;
     background-color: $secondary;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 7rem;
     
-    &::before{
-        content: "";
-        height: 33vh;
-        width: 100vw;
-        position: absolute;
-        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
-        top: -16vh;
-        left: 0;
-        z-index: 1;
-    }
+    // &::before{
+    //     content: "";
+    //     height: 33vh;
+    //     width: 100vw;
+    //     position: absolute;
+    //     background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+    //     top: -16vh;
+    //     left: 0;
+    //     z-index: 1;
+    // }
 
     &__image{
         object-fit: cover;
