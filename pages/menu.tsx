@@ -18,6 +18,8 @@ export default function Menu() {
         const result = await reader.read();
         const decoder: any = new TextDecoder('utf-8')
         const csv = await decoder.decode(result.value);
+
+        
         return csv
     }
 
