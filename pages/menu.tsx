@@ -19,7 +19,8 @@ export default function Menu() {
         const decoder: any = new TextDecoder('utf-8')
         const csv = await decoder.decode(result.value);
 
-        
+        // asoifaosijfailsj
+
         return csv
     }
 
